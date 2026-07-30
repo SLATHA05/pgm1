@@ -1,25 +1,8 @@
-# ==========================================
-# Assignment: Travel Company Profit Calculator
-# Name:
-# Register Number:
-# ==========================================
+flight_cost = 5000
+passengers = 29
+ticket_price = 200
 
-# Problem:
-# A travel company wants to fly a plane to Coimbatore.
-# Flying the plane costs 5000 dollars.
-# 29 people have signed up for the trip.
-# Each ticket costs 200 dollars.
-#
-# Create variables for:
-# 1. Flight cost
-# 2. Number of passengers
-# 3. Ticket price
-#
-# Calculate:
-# - Total Revenue
-# - Profit
-#
-# Display the profit.
+revenue = passengers * ticket_price
+profit = revenue - flight_cost
 
-# Write your code below
-
+print("Profit:", profit)
