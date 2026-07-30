@@ -8,6 +8,10 @@ def run_program():
         capture_output=True,
         text=True
     )
+
+    # If the student's program crashes, show the error
+    assert result.returncode == 0, f"Program crashed:\n{result.stderr}"
+
     return result.stdout.strip()
 
 
